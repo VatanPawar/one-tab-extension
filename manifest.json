@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "One Tab Enforcer",
+  "version": "1.0",
+  "description": "Closes any tab if more than one is open.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
